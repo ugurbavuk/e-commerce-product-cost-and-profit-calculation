@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F39C9F962904570A00028220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C9F952904570A00028220 /* AppDelegate.swift */; };
+		F39C9F982904570A00028220 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C9F972904570A00028220 /* SceneDelegate.swift */; };
+		F39C9F9A2904570A00028220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C9F992904570A00028220 /* ViewController.swift */; };
+		F39C9F9D2904570A00028220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39C9F9B2904570A00028220 /* Main.storyboard */; };
+		F39C9F9F2904570B00028220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39C9F9E2904570B00028220 /* Assets.xcassets */; };
+		F39C9FA22904570B00028220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39C9FA02904570B00028220 /* LaunchScreen.storyboard */; };
+		F39C9FAD2904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C9FAC2904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaTests.swift */; };
+		F39C9FB72904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C9FB62904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaUITests.swift */; };
+		F39C9FB92904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39C9FB82904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F39C9FA92904570B00028220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39C9F8A2904570A00028220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39C9F912904570A00028220;
+			remoteInfo = "Trendyol Satış Fiyatı Hesaplama";
+		};
+		F39C9FB32904570B00028220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39C9F8A2904570A00028220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39C9F912904570A00028220;
+			remoteInfo = "Trendyol Satış Fiyatı Hesaplama";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F39C9F922904570A00028220 /* Trendyol Satış Fiyatı Hesaplama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trendyol Satış Fiyatı Hesaplama.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39C9F952904570A00028220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F39C9F972904570A00028220 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F39C9F992904570A00028220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F39C9F9C2904570A00028220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39C9F9E2904570B00028220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F39C9FA12904570B00028220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F39C9FA32904570B00028220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39C9FA82904570B00028220 /* Trendyol Satış Fiyatı HesaplamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trendyol Satış Fiyatı HesaplamaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39C9FAC2904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trendyol_Sat_s__Fiyat__HesaplamaTests.swift; sourceTree = "<group>"; };
+		F39C9FB22904570B00028220 /* Trendyol Satış Fiyatı HesaplamaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Trendyol Satış Fiyatı HesaplamaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39C9FB62904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trendyol_Sat_s__Fiyat__HesaplamaUITests.swift; sourceTree = "<group>"; };
+		F39C9FB82904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trendyol_Sat_s__Fiyat__HesaplamaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F39C9F8F2904570A00028220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39C9FA52904570B00028220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39C9FAF2904570B00028220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F39C9F892904570A00028220 = {
+			isa = PBXGroup;
+			children = (
+				F39C9F942904570A00028220 /* Trendyol Satış Fiyatı Hesaplama */,
+				F39C9FAB2904570B00028220 /* Trendyol Satış Fiyatı HesaplamaTests */,
+				F39C9FB52904570B00028220 /* Trendyol Satış Fiyatı HesaplamaUITests */,
+				F39C9F932904570A00028220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F39C9F932904570A00028220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39C9F922904570A00028220 /* Trendyol Satış Fiyatı Hesaplama.app */,
+				F39C9FA82904570B00028220 /* Trendyol Satış Fiyatı HesaplamaTests.xctest */,
+				F39C9FB22904570B00028220 /* Trendyol Satış Fiyatı HesaplamaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F39C9F942904570A00028220 /* Trendyol Satış Fiyatı Hesaplama */ = {
+			isa = PBXGroup;
+			children = (
+				F39C9F952904570A00028220 /* AppDelegate.swift */,
+				F39C9F972904570A00028220 /* SceneDelegate.swift */,
+				F39C9F992904570A00028220 /* ViewController.swift */,
+				F39C9F9B2904570A00028220 /* Main.storyboard */,
+				F39C9F9E2904570B00028220 /* Assets.xcassets */,
+				F39C9FA02904570B00028220 /* LaunchScreen.storyboard */,
+				F39C9FA32904570B00028220 /* Info.plist */,
+			);
+			path = "Trendyol Satış Fiyatı Hesaplama";
+			sourceTree = "<group>";
+		};
+		F39C9FAB2904570B00028220 /* Trendyol Satış Fiyatı HesaplamaTests */ = {
+			isa = PBXGroup;
+			children = (
+				F39C9FAC2904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaTests.swift */,
+			);
+			path = "Trendyol Satış Fiyatı HesaplamaTests";
+			sourceTree = "<group>";
+		};
+		F39C9FB52904570B00028220 /* Trendyol Satış Fiyatı HesaplamaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F39C9FB62904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaUITests.swift */,
+				F39C9FB82904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaUITestsLaunchTests.swift */,
+			);
+			path = "Trendyol Satış Fiyatı HesaplamaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F39C9F912904570A00028220 /* Trendyol Satış Fiyatı Hesaplama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39C9FBC2904570B00028220 /* Build configuration list for PBXNativeTarget "Trendyol Satış Fiyatı Hesaplama" */;
+			buildPhases = (
+				F39C9F8E2904570A00028220 /* Sources */,
+				F39C9F8F2904570A00028220 /* Frameworks */,
+				F39C9F902904570A00028220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trendyol Satış Fiyatı Hesaplama";
+			productName = "Trendyol Satış Fiyatı Hesaplama";
+			productReference = F39C9F922904570A00028220 /* Trendyol Satış Fiyatı Hesaplama.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F39C9FA72904570B00028220 /* Trendyol Satış Fiyatı HesaplamaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39C9FBF2904570B00028220 /* Build configuration list for PBXNativeTarget "Trendyol Satış Fiyatı HesaplamaTests" */;
+			buildPhases = (
+				F39C9FA42904570B00028220 /* Sources */,
+				F39C9FA52904570B00028220 /* Frameworks */,
+				F39C9FA62904570B00028220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39C9FAA2904570B00028220 /* PBXTargetDependency */,
+			);
+			name = "Trendyol Satış Fiyatı HesaplamaTests";
+			productName = "Trendyol Satış Fiyatı HesaplamaTests";
+			productReference = F39C9FA82904570B00028220 /* Trendyol Satış Fiyatı HesaplamaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F39C9FB12904570B00028220 /* Trendyol Satış Fiyatı HesaplamaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39C9FC22904570B00028220 /* Build configuration list for PBXNativeTarget "Trendyol Satış Fiyatı HesaplamaUITests" */;
+			buildPhases = (
+				F39C9FAE2904570B00028220 /* Sources */,
+				F39C9FAF2904570B00028220 /* Frameworks */,
+				F39C9FB02904570B00028220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39C9FB42904570B00028220 /* PBXTargetDependency */,
+			);
+			name = "Trendyol Satış Fiyatı HesaplamaUITests";
+			productName = "Trendyol Satış Fiyatı HesaplamaUITests";
+			productReference = F39C9FB22904570B00028220 /* Trendyol Satış Fiyatı HesaplamaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F39C9F8A2904570A00028220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F39C9F912904570A00028220 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					F39C9FA72904570B00028220 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F39C9F912904570A00028220;
+					};
+					F39C9FB12904570B00028220 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = F39C9F912904570A00028220;
+					};
+				};
+			};
+			buildConfigurationList = F39C9F8D2904570A00028220 /* Build configuration list for PBXProject "Trendyol Satış Fiyatı Hesaplama" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F39C9F892904570A00028220;
+			productRefGroup = F39C9F932904570A00028220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F39C9F912904570A00028220 /* Trendyol Satış Fiyatı Hesaplama */,
+				F39C9FA72904570B00028220 /* Trendyol Satış Fiyatı HesaplamaTests */,
+				F39C9FB12904570B00028220 /* Trendyol Satış Fiyatı HesaplamaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F39C9F902904570A00028220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39C9FA22904570B00028220 /* LaunchScreen.storyboard in Resources */,
+				F39C9F9F2904570B00028220 /* Assets.xcassets in Resources */,
+				F39C9F9D2904570A00028220 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39C9FA62904570B00028220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39C9FB02904570B00028220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39C9F8E2904570A00028220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39C9F9A2904570A00028220 /* ViewController.swift in Sources */,
+				F39C9F962904570A00028220 /* AppDelegate.swift in Sources */,
+				F39C9F982904570A00028220 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39C9FA42904570B00028220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39C9FAD2904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39C9FAE2904570B00028220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39C9FB72904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaUITests.swift in Sources */,
+				F39C9FB92904570B00028220 /* Trendyol_Sat_s__Fiyat__HesaplamaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F39C9FAA2904570B00028220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39C9F912904570A00028220 /* Trendyol Satış Fiyatı Hesaplama */;
+			targetProxy = F39C9FA92904570B00028220 /* PBXContainerItemProxy */;
+		};
+		F39C9FB42904570B00028220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39C9F912904570A00028220 /* Trendyol Satış Fiyatı Hesaplama */;
+			targetProxy = F39C9FB32904570B00028220 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F39C9F9B2904570A00028220 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39C9F9C2904570A00028220 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F39C9FA02904570B00028220 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39C9FA12904570B00028220 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F39C9FBA2904570B00028220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F39C9FBB2904570B00028220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F39C9FBD2904570B00028220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFFGANDD2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trendyol Satış Fiyatı Hesaplama/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantumsoftware.Trendyol-Sat-s--Fiyat--Hesaplama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F39C9FBE2904570B00028220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFFGANDD2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Trendyol Satış Fiyatı Hesaplama/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantumsoftware.Trendyol-Sat-s--Fiyat--Hesaplama";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F39C9FC02904570B00028220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFFGANDD2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantumsoftware.Trendyol-Sat-s--Fiyat--HesaplamaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trendyol Satış Fiyatı Hesaplama.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trendyol Satış Fiyatı Hesaplama";
+			};
+			name = Debug;
+		};
+		F39C9FC12904570B00028220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFFGANDD2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantumsoftware.Trendyol-Sat-s--Fiyat--HesaplamaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trendyol Satış Fiyatı Hesaplama.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Trendyol Satış Fiyatı Hesaplama";
+			};
+			name = Release;
+		};
+		F39C9FC32904570B00028220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFFGANDD2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantumsoftware.Trendyol-Sat-s--Fiyat--HesaplamaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trendyol Satış Fiyatı Hesaplama";
+			};
+			name = Debug;
+		};
+		F39C9FC42904570B00028220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = MFFGANDD2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.quantumsoftware.Trendyol-Sat-s--Fiyat--HesaplamaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Trendyol Satış Fiyatı Hesaplama";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F39C9F8D2904570A00028220 /* Build configuration list for PBXProject "Trendyol Satış Fiyatı Hesaplama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39C9FBA2904570B00028220 /* Debug */,
+				F39C9FBB2904570B00028220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39C9FBC2904570B00028220 /* Build configuration list for PBXNativeTarget "Trendyol Satış Fiyatı Hesaplama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39C9FBD2904570B00028220 /* Debug */,
+				F39C9FBE2904570B00028220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39C9FBF2904570B00028220 /* Build configuration list for PBXNativeTarget "Trendyol Satış Fiyatı HesaplamaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39C9FC02904570B00028220 /* Debug */,
+				F39C9FC12904570B00028220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39C9FC22904570B00028220 /* Build configuration list for PBXNativeTarget "Trendyol Satış Fiyatı HesaplamaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39C9FC32904570B00028220 /* Debug */,
+				F39C9FC42904570B00028220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F39C9F8A2904570A00028220 /* Project object */;
+}

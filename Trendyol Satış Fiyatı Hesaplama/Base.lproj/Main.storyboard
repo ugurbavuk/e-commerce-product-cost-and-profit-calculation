@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Trendyol_Satıs__Fiyatı_Hesaplama" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Ürünün Maliyeti Kaç Türk Lirası ?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sxM-gE-Jyp">
+                                <rect key="frame" x="83" y="276" width="265" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="XTG-nj-BDU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Ürünün Vergisi % kaç ?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jpT-I8-gYQ">
+                                <rect key="frame" x="83" y="365" width="265" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="HYQ-td-pFR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Ürünün Kargo Bedeli Kaç Türk Lirası ?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tXG-UF-Vrt">
+                                <rect key="frame" x="83" y="449" width="265" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="7Aq-dN-INI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Trendyol Komisyonu % kaç ?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GbQ-y2-COQ">
+                                <rect key="frame" x="83" y="534" width="265" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Trendyol Satış Fiyatı Hesaplama" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Iw-hQ-QCy">
+                                <rect key="frame" x="65" y="207" width="300" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Satış fiyatı üzerinden hesaplanıyor.." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nzk-YI-dvs">
+                                <rect key="frame" x="84" y="347" width="231" height="16"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Satış fiyatı üzerinden hesaplanıyor.." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHS-3P-1uk">
+                                <rect key="frame" x="85" y="430" width="231" height="16"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Satış fiyatı üzerinden hesaplanıyor.." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NtS-N8-8GX">
+                                <rect key="frame" x="86" y="515" width="231" height="16"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Satış Fiyatı =" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fit-ev-Siw">
+                                <rect key="frame" x="83" y="769" width="265" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wIl-QI-Usm">
+                                <rect key="frame" x="162" y="693" width="112" height="36"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="HESAPLA">
+                                            <attributes>
+                                                <font key="NSFont" size="19" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" systemColor="labelColor"/>
+                                    <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="resultCliced:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hkz-1M-XH9"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Satıştan istenilen kâr kaç türk lirası ?" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LlL-f0-31L">
+                                <rect key="frame" x="83" y="609" width="265" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Trendyol_online" translatesAutoresizingMaskIntoConstraints="NO" id="zsg-D6-Mzg">
+                                <rect key="frame" x="123" y="104" width="190" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="GbQ-y2-COQ" firstAttribute="top" secondItem="NtS-N8-8GX" secondAttribute="bottom" constant="3" id="2jA-Ij-Y9v"/>
+                            <constraint firstItem="jpT-I8-gYQ" firstAttribute="trailing" secondItem="tXG-UF-Vrt" secondAttribute="trailing" id="3gd-vM-Dny"/>
+                            <constraint firstItem="nzk-YI-dvs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="84" id="5fG-XR-ras"/>
+                            <constraint firstItem="2Iw-hQ-QCy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="148" id="5jL-s8-xwq"/>
+                            <constraint firstItem="sxM-gE-Jyp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="5zr-Ms-gaB"/>
+                            <constraint firstItem="oHS-3P-1uk" firstAttribute="top" secondItem="jpT-I8-gYQ" secondAttribute="bottom" constant="31" id="B2A-xD-85k"/>
+                            <constraint firstItem="sxM-gE-Jyp" firstAttribute="leading" secondItem="jpT-I8-gYQ" secondAttribute="leading" id="Ein-bl-Xhr"/>
+                            <constraint firstItem="oHS-3P-1uk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="Eph-t7-yzA"/>
+                            <constraint firstItem="jpT-I8-gYQ" firstAttribute="leading" secondItem="tXG-UF-Vrt" secondAttribute="leading" id="GWb-HG-KoD"/>
+                            <constraint firstItem="tXG-UF-Vrt" firstAttribute="leading" secondItem="GbQ-y2-COQ" secondAttribute="leading" id="MUG-8M-mHt"/>
+                            <constraint firstItem="2Iw-hQ-QCy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MWB-qf-YN1"/>
+                            <constraint firstItem="NtS-N8-8GX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="86" id="NgT-Bl-2UZ"/>
+                            <constraint firstItem="jpT-I8-gYQ" firstAttribute="top" secondItem="nzk-YI-dvs" secondAttribute="bottom" constant="2" id="Xzb-pe-0C5"/>
+                            <constraint firstItem="GbQ-y2-COQ" firstAttribute="trailing" secondItem="fit-ev-Siw" secondAttribute="trailing" id="cNT-j7-qdZ"/>
+                            <constraint firstItem="fit-ev-Siw" firstAttribute="top" secondItem="GbQ-y2-COQ" secondAttribute="bottom" constant="201" id="d7y-Yq-gik"/>
+                            <constraint firstItem="nzk-YI-dvs" firstAttribute="top" secondItem="sxM-gE-Jyp" secondAttribute="bottom" constant="37" id="gyI-WQ-jWs"/>
+                            <constraint firstItem="wIl-QI-Usm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="162" id="hKq-BA-ysO"/>
+                            <constraint firstItem="GbQ-y2-COQ" firstAttribute="leading" secondItem="fit-ev-Siw" secondAttribute="leading" id="jlW-Cn-4XX"/>
+                            <constraint firstItem="tXG-UF-Vrt" firstAttribute="top" secondItem="oHS-3P-1uk" secondAttribute="bottom" constant="3" id="k5R-y9-ugI"/>
+                            <constraint firstItem="sxM-gE-Jyp" firstAttribute="trailing" secondItem="jpT-I8-gYQ" secondAttribute="trailing" id="mFA-Ie-Tlo"/>
+                            <constraint firstItem="fit-ev-Siw" firstAttribute="top" secondItem="wIl-QI-Usm" secondAttribute="bottom" constant="40" id="pfV-Wz-sNA"/>
+                            <constraint firstItem="2Iw-hQ-QCy" firstAttribute="centerX" secondItem="sxM-gE-Jyp" secondAttribute="centerX" id="vDw-q5-dBj"/>
+                            <constraint firstItem="tXG-UF-Vrt" firstAttribute="trailing" secondItem="GbQ-y2-COQ" secondAttribute="trailing" id="wri-cQ-T81"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="fit-ev-Siw" secondAttribute="bottom" constant="100" id="yl0-UD-st8"/>
+                            <constraint firstItem="sxM-gE-Jyp" firstAttribute="top" secondItem="2Iw-hQ-QCy" secondAttribute="bottom" constant="45" id="ze2-MV-BiG"/>
+                            <constraint firstItem="NtS-N8-8GX" firstAttribute="top" secondItem="tXG-UF-Vrt" secondAttribute="bottom" constant="32" id="zk1-2v-uLR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="firstText" destination="sxM-gE-Jyp" id="SSF-an-oFO"/>
+                        <outlet property="fiveText" destination="LlL-f0-31L" id="xL8-yZ-fQt"/>
+                        <outlet property="fourthText" destination="GbQ-y2-COQ" id="LpG-Bn-y6p"/>
+                        <outlet property="resultLabel" destination="fit-ev-Siw" id="9gM-gd-0Jq"/>
+                        <outlet property="secondText" destination="jpT-I8-gYQ" id="sUo-HM-z68"/>
+                        <outlet property="thirdText" destination="tXG-UF-Vrt" id="zMr-kL-rKw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36.279069767441861" y="3.218884120171674"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Trendyol_online" width="1200" height="405"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
